@@ -5,7 +5,7 @@
 1. Open `https://developers.facebook.com` in an incognito window.
 2. Log in with client-supplied credentials.
 
-   ![](.gitbook/assets/fb-01%20%281%29.png)
+   ![](.gitbook/assets/fb-01.png)
 
 3. Under "My Apps" click "Add a New App."
 
@@ -29,7 +29,7 @@
 
 1. Open Postman and create a new GET request. In the Authorization tab, choose "OAuth 2.0" and click "Get New Access Token."
 
-   ![](.gitbook/assets/fb-06%20%282%29.png)
+   ![](.gitbook/assets/fb-06.png)
 
    1. Name your token in the "Token Name" field.
    2. Set the "Access Token URL" field to `https://graph.facebook.com/v2.12/oauth/access_token`
@@ -37,10 +37,10 @@
    4. Enter the App Secret in the "Client Secret" field.
    5. Click "Request Token."
 
-      ![](.gitbook/assets/fb-07%20%281%29.png)
+      ![](.gitbook/assets/fb-07.png)
 
 2. If the token request was successful, you should see text entered in the "Access Token" field.
-3. In the URL field, enter `https://graph.facebook.com/v2.12/[page name]/posts?fields=id,message,created_time,permalink-url` substituting the actual page name for `[page name]`
+3. In the URL field, enter `https://graph.facebook.com/v2.12/[page name]/posts?fields=id,message,created_time,permalink_url` substituting the actual page name for `[page name]`
 4. Click "Send." The "Response" should fill up with a list of posts from that page.
 
    ![](.gitbook/assets/fb-08.png)
