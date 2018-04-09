@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* Facebook
+* [Facebook](facebook.md)
 * Instagram
 * [Twitter](twitter.md)
 
