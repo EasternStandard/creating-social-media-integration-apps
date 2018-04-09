@@ -2,6 +2,6 @@
 
 * [Introduction](README.md)
 * [Facebook](facebook.md)
-* Instagram
+* [Instagram](instagram.md)
 * [Twitter](twitter.md)
 
