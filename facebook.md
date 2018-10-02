@@ -1,6 +1,6 @@
 # Facebook
 
-### Creating the Token
+## Creating the Token
 
 1. Open `https://developers.facebook.com` in an incognito window.
 2. Log in with client-supplied credentials.
@@ -25,7 +25,7 @@
 
 7. Note the actual page being accessed, not necessarily the user you logged in as. Going to that account's main page in facebook should show a list of pages managed by that account.
 
-### Testing the Token
+## Testing the Token
 
 1. Open Postman and create a new GET request. In the Authorization tab, choose "OAuth 2.0" and click "Get New Access Token."
 
